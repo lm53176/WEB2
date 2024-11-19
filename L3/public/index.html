@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body onload="start()">
+   
+    <canvas id="myC" style="border:10px solid rgb(58, 200, 243); background-color: black;"></canvas>
+    <a>Broj redova: </a>
+    <button id="btn1" type="button" style="width:30px; height:30px " onclick="gumb(1)">1</button>
+    <button id="btn2" type="button" style="width:30px; height:30px " onclick="gumb(2)">2</button>
+    <button id="btn3" type="button" style="width:30px; height:30px " onclick="gumb(3)">3</button>
+    <button id="btn4" type="button" style="width:30px; height:30px " onclick="gumb(4)">4</button>
+    
+    <a>Brzina: </a>
+    <button id="btns1" type="button" style="width:30px; height:30px " onclick="gumb2(4)">1</button>
+    <button id="btns2" type="button" style="width:30px; height:30px " onclick="gumb2(6)">2</button>
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyA6xM7Q4UH5EVSC_zhOmPY1SynS0uI_qXk",
+          authDomain: "webl3-22813.firebaseapp.com",
+          projectId: "webl3-22813",
+          storageBucket: "webl3-22813.firebasestorage.app",
+          messagingSenderId: "301687496438",
+          appId: "1:301687496438:web:ae7776e197b5d5f65856d7"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</body>
+
+</html>
